@@ -67,7 +67,7 @@ const Converter = () => {
           type="number"
           value={input}
           onChange={(e) => setInput(Number(e.target.value))}
-          className="p-2 border-2 border-blue-500 rounded"
+          className="p-2 border-2 border-blue-500 rounded text-black"
         />
         <select
           value={inputUnit}
@@ -92,7 +92,7 @@ const Converter = () => {
           type="number"
           value={output}
           disabled
-          className="p-2 border-2 border-blue-500 rounded"
+          className="p-2 border-2 border-blue-500 rounded text-black"
         />
         <select
           value={outputUnit}

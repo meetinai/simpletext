@@ -1,13 +1,12 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import Image from 'next/image';
+import Header from '../components/Header';
+import Converter from '../components/Converter';
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
+    <main className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+      <Header />
+      <Converter />
     </main>
-  )
+  );
 }
